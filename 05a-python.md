@@ -22,6 +22,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Both lists and sets are a collection of data. While lists have a set order, Sets are a collection of unordered items. Sets do not allow duplicate elements whereas duplicates are allowed in lists.
 Lists are faster when it comes to iterating over elements but when it comes to determining the presence of element, sets are significantly faster. Sets use hash function to store elements and hence it takes O(1) to find an elements. Lists take O(n), in worst case.
+
 ---
 
 ###Q3. Lambda Function
