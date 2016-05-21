@@ -45,7 +45,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 Comprehensions are constructs that allow sequences to be built from other sequences. 
 
 Ex:  squares = 1)[x**2 for x in range(10)]
-    'map' equivalent : squares = map(lambda x: x**2, range(10))
+     'map' equivalent : squares = map(lambda x: x**2, range(10))
      2) special_squares = [x for x in squares if x > 5 and x < 50]
      'filter' equivalent : special_squares = filter(lambda x: x > 5 and x < 50, squares)
 
