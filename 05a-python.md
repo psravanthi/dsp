@@ -34,6 +34,7 @@ Ex:
 pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
 sorted(pairs, key = lambda x : x[1])
 Sorts based on the 2nd element 
+
 ---
 
 ###Q4. List Comprehension, Map &amp; Filter
