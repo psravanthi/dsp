@@ -18,6 +18,8 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
+    message = "Number of donuts: "+ "many" if count >= 10 else count
+    return message
     raise NotImplementedError
 
 
@@ -37,6 +39,8 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
+    length_s = len(s)
+    return "" if length_s <=2 else s[:2]+s[-2:]
     raise NotImplementedError
 
 
@@ -56,6 +60,8 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
+    return s[0]+s[1:].replace(s[0],'*')
+    raise NotImplementedError
     raise NotImplementedError
 
 
@@ -74,6 +80,8 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
+    return b[:2]+a[2:]+" "+a[:2]+b[2:]
+    
     raise NotImplementedError
 
 
@@ -91,6 +99,7 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
+    return s if len(s)<=3 else s+'ly' if s[-3:]=='ing' else s+'ing'
     raise NotImplementedError
 
 
@@ -111,6 +120,12 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
+    pos_not = s.find('not')
+    pos_bad = s.find('bad')
+    if pos_not > -1 and pos_bad > -1 and pos_not < pos_bad:
+     return s.replace(s[pos_not:pos_bad+3],'good') 
+    else:
+     return s
     raise NotImplementedError
 
 
@@ -130,4 +145,7 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
+    alen = int(len(a)/2) + (len(a)%2 )
+    blen = int(len(b)/2) + (len(b)%2 )
+    return a[:alen]+b[:blen]+a[alen:]+b[blen:]
     raise NotImplementedError

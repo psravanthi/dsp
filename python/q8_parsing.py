@@ -9,11 +9,6 @@
 
 import csv
 
-  def read_data(data):
-   # COMPLETE THIS FUNCTION
-
-  def get_min_score_difference(self, parsed_data):
-    # COMPLETE THIS FUNCTION
-
-  def get_team(self, index_value, parsed_data):
-    # COMPLETE THIS FUNCTION
+with open("football.csv",'r') as football:
+ footballcsv = csv.DictReader(football)
+ print(sorted(footballcsv, key = lambda x : int(x['Goals'])-int(x['Goals Allowed']))[0]['Team'])
