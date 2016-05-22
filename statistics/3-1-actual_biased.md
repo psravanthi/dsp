@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
-
-Read the female respondent file.
+```python
+#Read the female respondent file.
 %matplotlib inline
 import chap01soln
 resp = chap01soln.ReadFemResp()
@@ -39,8 +39,8 @@ thinkplot.Show()
 
 pmf.Mean()
 biased.Mean()
-
-Output :
+```
+> Output :
 Actual Mean: 1.0242051550438309
 Biased Mean : 2.4036791006642821
 
