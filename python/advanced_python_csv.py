@@ -1,4 +1,4 @@
-PLACE YOUR CODE HERE
+#PLACE YOUR CODE HERE
 import pandas
 
 faculty_df = pandas.read_csv('/Users/Manoj/Documents/metis/pre-work/faculty.csv',sep='\s*,\s*',engine='python')
