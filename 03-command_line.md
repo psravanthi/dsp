@@ -13,7 +13,7 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
 
 ---
 
@@ -28,7 +28,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+ls : list files in this directory
+ls -a : lists all files including the hidden files
+ls -l : shows file or directory, size, modified date and time, file or folder name and owner of file and it’s permission
+ls -lh :same as above but shows size in 'human readable' 
+ls -lah : same as lh but lists the hidden files too
+ls -t : Displays newest file first based on timestamp
+ls -Glp : Displays the files in long format but prevents owner info from being shown. Also, directories are shown as /
+
 
 ---
 
@@ -36,7 +44,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls -ltr : shows latest modification file or directory
+ls -R : Recursively lists sub directories
+ls -S : Shows file size in order. Largest being the 
+ls -d : Displays only directories
+ls -f : interprets name argument as directory and so can be used to search through directories
 
 ---
 
@@ -44,7 +57,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs executes some command from standard input. This can be done on a list of files or directories.
+Ex: 
+find . -name "*.txt" | xargs grep "unix" 
+The above command finds all the .txt files in the current or below directories  and then searches for the word 'unix' in each .txt file
+
+
 
  
 
