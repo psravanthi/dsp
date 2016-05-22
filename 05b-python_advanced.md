@@ -19,22 +19,41 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+'MS': 2
+'SCD': 6
+'JD': 1
+'PHD': 31 
+'MD': 1 
+'MPH': 2
+'MA': 1
+'BSED': 1 
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+'PROFESSOR OF BIOSTATOFTICS': 13
+'ASSISTANT PROFESSOR OF BIOSTATISTICS': 12
+'ASSOCIATE PROFESSOR OF BIOSTATISTICS': 12
+
 
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> REPLACE THIS WITH YOUR RESPONSE
-
+>> 
+['bellamys@mail.med.upenn.edu', 'warren@upenn.edu', 'bryanma@upenn.edu', 'jinboche@upenn.edu', 'sellenbe@upenn.edu', 'jellenbe@mail.med.upenn.edu', 'ruifeng@upenn.edu', 'bcfrench@mail.med.upenn.edu', 'pgimotty@upenn.edu', 'wguo@mail.med.upenn.edu', 'hsu9@mail.med.upenn.edu', 'rhubb@mail.med.upenn.edu', 'whwang@mail.med.upenn.edu', 'mjoffe@mail.med.upenn.edu', 'jrlandis@mail.med.upenn.edu', 'liy3@email.chop.edu', 'mingyao@mail.med.upenn.edu', 'hongzhe@upenn.edu', 'rlocalio@upenn.edu', 'nanditam@mail.med.upenn.edu', 'knashawn@mail.med.upenn.edu', 'propert@mail.med.upenn.edu', 'mputt@mail.med.upenn.edu', 'sratclif@upenn.edu', 'michross@upenn.edu', 'jaroy@mail.med.upenn.edu', 'msammel@cceb.med.upenn.edu', 'shawp@upenn.edu', 'rshi@mail.med.upenn.edu', 'hshou@mail.med.upenn.edu', 'jshults@mail.med.upenn.edu', 'alisaste@mail.med.upenn.edu', 'atroxel@mail.med.upenn.edu', 'rxiao@mail.med.upenn.edu', 'sxie@mail.med.upenn.edu', 'dxie@upenn.edu', 'weiyang@mail.med.upenn.edu'] 
+ 
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+ 'upenn.edu': 12
+ 'email.chop.edu': 1
+ 'mail.med.upenn.edu': 23
+ 'cceb.med.upenn.edu': 1
+
+
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
@@ -74,7 +93,7 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> [('Bellamy', [['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']]), ('Bilker', [['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']]), ('Bryan', [['PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']])] 
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
@@ -89,11 +108,13 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+[(('A.', 'Localio'), ['JD MA MPH MS PhD', 'Associate Professor of Biostatistics', 'rlocalio@upenn.edu']), (('Alisa', 'Stephens'), ['Ph.D.', 'Assistant Professor of Biostatistics', 'alisaste@mail.med.upenn.edu']), (('Andrea', 'Troxel'), ['ScD', 'Professor of Biostatistics', 'atroxel@mail.med.upenn.edu'])] 
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.  
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+[(('Scarlett', 'Bellamy'), ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']), (('Warren', 'Bilker'), ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']), (('Matthew', 'Bryan'), ['PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu'])]
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
