@@ -77,7 +77,7 @@ While identical twins are of the same gender, fraternal twins need not be of the
 
 >> P(fraternal twins & twin brother) = (1/125)*(1/2)*(1/2)
 
->> P(elvis identical twin) = (1/300)(1/2) / ( (1/300)*(1/2) + (1/125)*(1/2)*(1/2) )
+>> P(identical twins & twin brother) = (1/300)(1/2) / ( (1/300)*(1/2) + (1/125)*(1/2)*(1/2) )
                                         = 5/11
 
 
