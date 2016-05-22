@@ -86,7 +86,7 @@ While identical twins are of the same gender, fraternal twins need not be of the
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In Bayesian statistics, we begin with a "prior distribution", i.e., we have certain prior information. And after collecting some data, we update the prior distribution to get a new probability distribution called posterior distribution. Whereas Frequentists do not make any such prior statements. Frequentists only allow probability statements about sampling. The frequentist approach focuses on the probability of the data, given the hypothesis. Bayesian statistics focuses on the probability of the hypothesis, given the data.
 
 ---
 
