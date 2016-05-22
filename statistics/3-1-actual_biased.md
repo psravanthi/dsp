@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
-
-Read the female respondent file.
+```python
+#Read the female respondent file.
 %matplotlib inline
 import chap01soln
 resp = chap01soln.ReadFemResp()
@@ -35,14 +35,16 @@ biased = BiasPmf(pmf, label='biased')
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show()
-[[statistics/actual vs biased.png]]
+```
+[statistics/actual vs biased.png]
 
+```python
 pmf.Mean()
 biased.Mean()
-
-Output :
+```
+> Output :
 Actual Mean: 1.0242051550438309
 Biased Mean : 2.4036791006642821
 
-Observations:
+> Observations:
 As expected, class size paradox can be observed. There is no representation for the families with zero children and families with more children are over sampled. 
