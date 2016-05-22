@@ -18,7 +18,7 @@ preg = nsfg.ReadFemPreg()
 firsts = live[live.birthord == 1]
 others = live[live.birthord != 1]
 ```
-Output:
+> Output:
 First Baby mean: 7.201094430437772
 Other Babies mean: 7.325855614973262 
 First Baby variance: 2.0180273009157768 
@@ -26,4 +26,4 @@ Other Babies variance: 1.9437810258964572
 First Baby mean - Other Babies mean: -0.12476118453549034
 CohenEffectSize: -0.088672927072602
 
-There appears to be a small difference with the non-first babies a little heavier. Though the cohen's d is larger than cohen's d for pregnancy length, it is still small and indicates that the difference is not significant.
+> There appears to be a small difference with the non-first babies a little heavier. Though the cohen's d is larger than cohen's d for pregnancy length, it is still small and indicates that the difference is not significant.
