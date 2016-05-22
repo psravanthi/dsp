@@ -44,5 +44,5 @@ biased.Mean()
 Actual Mean: 1.0242051550438309
 Biased Mean : 2.4036791006642821
 
-Observations:
+> Observations:
 As expected, class size paradox can be observed. There is no representation for the families with zero children and families with more children are over sampled. 
