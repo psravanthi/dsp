@@ -7,13 +7,14 @@ pmf = thinkstats2.Pmf(t)
 thinkplot.Pmf(pmf, linewidth=0.1)
 thinkplot.Show()
 ````
-![pmf](statistics/pmf.png)
+![pmf](pmf.png)
+> Assuming that the PMF doesn't work very well, try plotting the CDF instead
 
 ```python
 cdf = thinkstats2.Cdf(t)
 thinkplot.Cdf(cdf)
 thinkplot.Show()
 ```
-![pmf](statistics/cdf.png)
+![pmf](cdf.png)
 
 > Since the plot for cdf is more of a straight line,the distribution is uniform
