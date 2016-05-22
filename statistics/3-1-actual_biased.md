@@ -36,7 +36,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show()
 ```
-[[statistics/actual_biased.png]]
+[[dsp/statistics/actual_biased.png]] 
 
 ```python
 pmf.Mean()
