@@ -35,8 +35,10 @@ biased = BiasPmf(pmf, label='biased')
 thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Show()
+```
 [[statistics/actual vs biased.png]]
 
+```python
 pmf.Mean()
 biased.Mean()
 ```
