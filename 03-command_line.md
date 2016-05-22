@@ -29,13 +29,13 @@ What do the following commands do:
 `ls -Glp`  
 
 > >
-ls : list files in this directory
-ls -a : lists all files including the hidden files
-ls -l : shows file or directory, size, modified date and time, file or folder name and owner of file and it’s permission
-ls -lh :same as above but shows size in 'human readable' 
-ls -lah : same as lh but lists the hidden files too
-ls -t : Displays newest file first based on timestamp
-ls -Glp : Displays the files in long format but prevents owner info from being shown. Also, directories are shown as /
+* ls : list files in this directory
+* ls -a : lists all files including the hidden files
+* ls -l : shows file or directory, size, modified date and time, file or folder name and owner of file and it’s permission
+* ls -lh :same as above but shows size in 'human readable' 
+* ls -lah : same as lh but lists the hidden files too
+* ls -t : Displays newest file first based on timestamp
+* ls -Glp : Displays the files in long format but prevents owner info from being shown. Also, directories are shown as /
 
 
 ---
