@@ -59,7 +59,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I prefer vim as it is default on many systems and it good to have working knowledge on vim. 
 
 --
 
@@ -67,6 +67,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I chose Spyder as it came with the Anaconda package. Some interesting features are it can run ipython consoles; variable explorer lets you explore the objects, variables etc. Some of the shortcuts are: ctrl-F9 for run selection; ctrl-F5 for run. It can be customized through the "preferences" option in the "python" menu
 
  
