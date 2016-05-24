@@ -14,16 +14,18 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > 
-1. man : Reads the manual page
-2. chmod : 'Change mode'. Changes the access permissions to files and directories
-3. find :
-4. grep :
-5. pushd :
-6. popd :
-7. chdown:
-8. less:
-9. cat :
-10. head: 
+
+1.	man : Reads the manual page
+2.	chmod : 'Change mode'. Changes the access permissions to files and directories
+3.	find : used for searching files in a directory hierarchy
+4.	grep : searches one/multiple files for a line that matches a pattern
+5.	pushd : changes current directory to the location specified and stores the new directory on the directory stack 
+6.	popd : removes the top path from the directory stack and then returns to the previous directory
+7.	chdown: changes ownership of a file system object
+8.	less: Reads files. Allows both forward and backward movement
+9.	cat : reads one or more files and prints them to standard output
+10.	head: reads the first few lines of any text given to it as an input and writes them to standard output
+
 ---
 
 ###Q2.  List Files in Unix   
@@ -54,11 +56,11 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
-ls -ltr : shows latest modification file or directory
-ls -R : Recursively lists sub directories
-ls -S : Shows file size in order. Largest being the 
-ls -d : Displays only directories
-ls -f : interprets name argument as directory and so can be used to search through directories
+*ls -ltr : shows latest modification file or directory
+*ls -R : Recursively lists sub directories
+*ls -S : Shows file size in order. Largest being the 
+*ls -d : Displays only directories
+*ls -f : interprets name argument as directory and so can be used to search through directories
 
 ---
 
