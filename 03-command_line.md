@@ -56,11 +56,11 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 > > 
-*ls -ltr : shows latest modification file or directory
-*ls -R : Recursively lists sub directories
-*ls -S : Shows file size in order. Largest being the 
-*ls -d : Displays only directories
-*ls -f : interprets name argument as directory and so can be used to search through directories
+* ls -ltr : shows latest modification file or directory
+* ls -R : Recursively lists sub directories
+* ls -S : Shows file size in order. Largest being the 
+* ls -d : Displays only directories
+* ls -f : interprets name argument as directory and so can be used to search through directories
 
 ---
 
