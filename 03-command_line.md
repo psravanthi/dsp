@@ -14,7 +14,6 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > 
-
 1.	man : Reads the manual page
 2.	chmod : 'Change mode'. Changes the access permissions to files and directories
 3.	find : used for searching files in a directory hierarchy
