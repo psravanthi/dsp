@@ -8,7 +8,7 @@ domain = {}
 faculty_df = pandas.read_csv('/Users/Manoj/Documents/metis/prework/faculty.csv',sep='\s*,\s*',engine='python')
 
 faculty_df['degree'] = faculty_df['degree'].str.replace('.','').str.strip().str.upper()
-faculty_df['title'] = faculty_df['title'].str.upper().str.replace("\sIS\s","OF")
+faculty_df['title'] = faculty_df['title'].str.upper().str.replace("\sIS\s"," OF ")
 for row in faculty_df.itertuples():
     
     for d in row.degree.split(' '):
