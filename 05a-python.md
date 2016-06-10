@@ -33,7 +33,6 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >>
 Small anonymous functions can be created with the lambda keyword. The function is created on runtime and not compiled.
-
 Ex:
 pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
 sorted(pairs, key = lambda x : x[1])
@@ -46,7 +45,7 @@ Sorts based on the 2nd element
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 >>
 Comprehensions are constructs that allow sequences to be built from other sequences. 
-
+>>
 Ex:  1) squares = [x**2 for x in range(10)]
      
      'map' equivalent : squares = map(lambda x: x**2, range(10))
