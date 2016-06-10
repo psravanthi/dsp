@@ -48,7 +48,7 @@ Comprehensions are constructs that allow sequences to be built from other sequen
 >>
 Ex:  1) squares = [x**2 for x in range(10)]
 >> 
-     'map' equivalent : squares = map(lambda x: x**2, range(10))
+'map' equivalent : squares = map(lambda x: x**2, range(10))
 >>    
 2) special_squares = [x for x in squares if x > 5 and x < 50]
 >>     
