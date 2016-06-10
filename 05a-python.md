@@ -81,8 +81,8 @@ a.
 date_start = '01-02-2013'    
 date_stop = '07-28-2015'
 ```
+>>
 datediff('01-02-2013','07-28-2015',"%m-%d-%Y")
-
 937
 
 b.  
@@ -90,8 +90,8 @@ b.
 date_start = '12312013'  
 date_stop = '05282015'  
 ```
- datediff('12312013','05282015',"%m%d%Y")
- 
+>>
+datediff('12312013','05282015',"%m%d%Y")
 513
 
 c.  
@@ -99,8 +99,8 @@ c.
 date_start = '15-Jan-1994'      
 date_stop = '14-Jul-2015'  
 ```
+>>
 datediff('15-Jan-1994','14-Jul-2015',"%d-%b-%Y")
-
 7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
