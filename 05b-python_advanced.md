@@ -28,6 +28,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 'MPH': 2
 'MA': 1
 'BSED': 1 
+'MISSING':1
 
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
