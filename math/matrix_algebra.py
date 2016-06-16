@@ -61,7 +61,7 @@ print("Dimensions of the matrices:")
 print("A:",a.shape,"\nB:",b.shape,"\nC:",c.shape,"\nD:",d.shape,"\nu:",u.shape,"\nv:",v.shape,"\nw:",w.shape)
 # Vector Operations
 print("Vector Operations:")
-print("u+v :",add_sub(u,v,'a'),"\nu-v :",add_sub(u,v,'s'),"\nalpha*u :",scalar_prod(u,alpha),"\nDot product of u,v :",prod(u,v),"\nMagnitude of u:",mag(u))
+print("u+v :",add_sub(u,v,'a'),"\nu-v :",add_sub(u,v,'s'),"\nalpha*u :",scalar_prod(u,alpha),"\nDot product of u,v :",dotprod(u,v),"\nMagnitude of u:",mag(u))
 # Matrix Operations
 print("Matrix Operations:")
 print("A+C :",add_sub(a,c,'a'),
