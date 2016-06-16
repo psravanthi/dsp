@@ -86,8 +86,7 @@ Vector Operations:
 u+v : [[ 9.  7. -4.  9.]]
 u-v : [[ 3. -3. -2.  1.]]
 alpha*u : [[ 36  12 -18  30]]
-Dot product of u,v : Number of columns of first matrix should be equal to number
- of rows of second matrix
+Dot product of u,v : [[ 18.  10.   3.  20.]] 
 Magnitude of u: 8.602325267042627
 Matrix Operations:
 A+C : Matrices should be of the same order
